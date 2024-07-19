@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 70px;
+  background-color: #ba4848;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(190, 233, 155);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1c0de4;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 40px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input-container input[type="text"],
+.input-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container textarea {
+  resize: vertical;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #2ccc31;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.task-list {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.task-list h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #745c5c;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-details {
+  border: 1px solid #121111;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 45px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow added */
+  transition: transform 0.2s ease-in-out; /* Slide effect transition */
+}
+
+.task-details:hover {
+  transform: translateY(-5px); /* Slide up effect on hover */
+}
+
+.task-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+  margin-right: 10vh;
+}
+
+.task-actions {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  align-items: center;
+}
+
+.task-actions button {
+  padding: 8px 20px;
+  margin-right: 10px; /* Adjust margin if needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-actions button.edit-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+.task-actions button.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.task-actions button:hover {
+  opacity: 0.8;
+}
+
+.task-description {
+  margin-top: 8px;
+  color: #666;
+  padding: 5px;
+}
+
+.description-label {
+  font-weight: bold;
+  margin-right: 4px;
+  color: #333;
+}
+
+.description-text {
+  font-size: 16px;
+  color: #745c5c;
+}
